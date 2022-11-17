@@ -1,0 +1,17 @@
+asgiref==3.5.2
+backports.zoneinfo==0.2.1
+black==22.10.0
+click==8.1.3
+dj-database-url==1.0.0
+Django==3.0.9
+django-crispy-forms==1.14.0
+gunicorn==20.1.0
+mypy-extensions==0.4.3
+pathspec==0.10.2
+platformdirs==2.5.4
+pytz==2022.6
+sqlparse==0.4.3
+tomli==2.0.1
+typing-extensions==4.4.0
+whitenoise==6.2.0
+youtube-dl==2021.12.17
