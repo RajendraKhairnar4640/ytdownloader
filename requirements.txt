@@ -11,5 +11,5 @@ pytz
 sqlparse==0.4.3
 tomli==2.0.1
 typing-extensions==4.4.0
-whitenoise==6.2.0
+whitenoise
 youtube-dl==2021.12.17
