@@ -13,3 +13,4 @@ tomli==2.0.1
 typing-extensions==4.4.0
 whitenoise==6.2.0
 youtube-dl==2021.12.17
+python==3.8.10
