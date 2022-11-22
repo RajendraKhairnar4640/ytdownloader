@@ -12,6 +12,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/my.css' %}">
     <title>YT download</title>
 </head>
 <body background-image="images/thoughtwin.jpeg">
@@ -23,6 +24,11 @@
 
     </div>
     <footer class="page-footer font-small black">
+        <a href="{% url 'payment' %}" class="float-button">
+            <div class="float-button-text">
+              Donate Now!
+            </div>
+            </a>
         <div class="footer-copyright text-center py-3">ThoguthWin © 2022
         <br><small class="text-muted">All rights reserved!</small>
       </div>

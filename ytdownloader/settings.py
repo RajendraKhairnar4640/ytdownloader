@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ["twdownloader.herokuapp.com", "localhost", "127.0.0.1"]
 # Application definition
 
 INSTALLED_APPS = [
+    
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "myapp",
     "crispy_forms",
+    "django_instagram",
+    "stripe_gateway",
 ]
 
 MIDDLEWARE = [
@@ -125,3 +128,6 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+STRIPE_SECRET_KEY = "sk_test_51M5TkLSC2LevUGvDGluqKeiygYpbLJsattOOLyvTm4ft3YuyoRO4ZnZOgw7ahuLpergfKN3f00MTwdJsuUKZxshL00dyMJkwP9"
+STRIPE_PUBLISHABLE_KEY = "pk_test_51M5TkLSC2LevUGvD39HIXwEWUIx8lny5KAJFpZmfOpqajUQhOa8fqmELkOAzBTtm3HgKYylpxjBCbtcXzv0Sesyb0060T1CnFf"

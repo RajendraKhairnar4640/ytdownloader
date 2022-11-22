@@ -13,3 +13,4 @@ typing-extensions==4.4.0
 whitenoise
 youtube-dl==2021.12.17
 python==3.8.10
+stripe==2.64.0

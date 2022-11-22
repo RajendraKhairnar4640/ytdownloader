@@ -1,0 +1,19 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+{% block content %}
+<div class="row">
+    <div class="container-fluid text-center">
+        <div class="col-sm-12 mt-5 ">
+        <div class="media">
+            <div class="media-body">
+                 <img class="mr-3" src="{% static 'stripe_gateway/images/ex1.gif' %}" alt="Generic placeholder image">
+               <h5 class="mt-2"><a href="{% url 'home' %}"><input type="button" value="Back to home" class="btn btn-outline-success"></a></h5>
+               
+               Thank You..! for your contribution.
+     
+             </div>
+             </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

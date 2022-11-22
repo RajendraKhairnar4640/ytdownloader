@@ -4,6 +4,7 @@ from django.shortcuts import render
 import youtube_dl
 from .forms import DownloadForm
 import re
+import os
 
 # Create your views here.
 
@@ -48,11 +49,15 @@ def download_vedio(request):
             "title": meta["title"],
             "streams": video_audio_streams,
             "description": meta["description"],
-            #"likes": meta["like_count"],
-            #"dislikes": meta["dislike_count"],
+            # "likes": meta["like_count"],
+            # "dislikes": meta["dislike_count"],
             "thumb": meta["thumbnails"][3]["url"],
             "duration": round(int(meta["duration"]) / 60, 2),
             "views": f'{int(meta["view_count"]):,}',
         }
         return render(request, "myapp/download.html", context)
     return render(request, "myapp/download.html", {"form": form})
+
+
+def instagram_downloader(request):
+    return render(request, "myapp/instagram.html")
