@@ -26,7 +26,7 @@ SECRET_KEY = "p_ospi!hj=b#$%1hr9k!bin((v6^i%srfxys3#&)cycjee%kla"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["twdownloader.herokuapp.com", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["twdownloader.herokuapp.com", "localhost"]
 
 
 # Application definition
