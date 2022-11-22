@@ -127,7 +127,7 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
 
 STRIPE_SECRET_KEY = "sk_test_51M5TkLSC2LevUGvDGluqKeiygYpbLJsattOOLyvTm4ft3YuyoRO4ZnZOgw7ahuLpergfKN3f00MTwdJsuUKZxshL00dyMJkwP9"
 STRIPE_PUBLISHABLE_KEY = "pk_test_51M5TkLSC2LevUGvD39HIXwEWUIx8lny5KAJFpZmfOpqajUQhOa8fqmELkOAzBTtm3HgKYylpxjBCbtcXzv0Sesyb0060T1CnFf"
