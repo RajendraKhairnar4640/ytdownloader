@@ -1,0 +1,23 @@
+.float-button{
+    font-family: 'Roboto', sans-serif;
+      position:fixed;
+      width:100px;
+      height:100px;
+      bottom:40px;
+      right:40px;
+      background-color:#ffffff;
+      color:#C4122F;
+      border-radius:50px;
+    border: 3px solid #C4122F;
+      text-align:center;
+      box-shadow: 2px 2px 3px #999;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  
+  .float-button-text {
+    margin-top: 22px;
+  }
+  
