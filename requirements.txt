@@ -11,4 +11,4 @@ tomli==2.0.1
 typing-extensions==4.4.0
 whitenoise
 youtube-dl==2021.12.17
-stripe==2.64.0
+stripe
