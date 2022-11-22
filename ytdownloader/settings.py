@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "p_ospi!hj=b#$%1hr9k!bin((v6^i%srfxys3#&)cycjee%kla"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["twdownloader.herokuapp.com", "localhost", "127.0.0.1"]
 
