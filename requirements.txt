@@ -11,7 +11,6 @@ django-instagram==0.3.2
 docopt==0.6.2
 fs==2.4.16
 gunicorn==20.1.0
-heroku==0.1.4
 humanfriendly==10.0
 idna==3.4
 instalooter==2.4.4
