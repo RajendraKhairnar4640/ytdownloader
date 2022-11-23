@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "p_ospi!hj=b#$%1hr9k!bin((v6^i%srfxys3#&)cycjee%kla"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["twdownloader.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["twdownloader.herokuapp.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -123,11 +123,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = "/static/"
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = "static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 
 STRIPE_SECRET_KEY = "sk_test_51M5TkLSC2LevUGvDGluqKeiygYpbLJsattOOLyvTm4ft3YuyoRO4ZnZOgw7ahuLpergfKN3f00MTwdJsuUKZxshL00dyMJkwP9"
 STRIPE_PUBLISHABLE_KEY = "pk_test_51M5TkLSC2LevUGvD39HIXwEWUIx8lny5KAJFpZmfOpqajUQhOa8fqmELkOAzBTtm3HgKYylpxjBCbtcXzv0Sesyb0060T1CnFf"
+
+STRIPE_PRICE_ID = "price_1M7GcDSC2LevUGvDLXUoNNrO"
